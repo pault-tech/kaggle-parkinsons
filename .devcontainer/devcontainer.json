@@ -1,15 +1,13 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-  },
-   
-    "customizations": {
-        "codespaces": {
-          "repositories": {
-            "pault-tech/*": {
-              "permissions": "write-all"
-            }
-          }
+  "features": {},
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "pault-tech/*": {
+          "permissions": "write-all"
         }
       }
+    }
   }
+}
