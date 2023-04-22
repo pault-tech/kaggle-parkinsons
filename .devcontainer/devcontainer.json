@@ -8,11 +8,11 @@
           "permissions": "write-all"
         }
       }
+    },
+    "vscode": {
+      "extensions": [
+        "VSpaceCode.vspacecode"
+      ]
     }
-  },
-  "vscode": {
-    "extensions": [
-      "VSpaceCode.vspacecode"
-    ]
   }
 }
