@@ -12,7 +12,7 @@
   },
   "vscode": {
     "extensions": [
-      "ms-azuretools.vscode-docker"
+      "VSpaceCode.vspacecode"
     ]
   }
 }
