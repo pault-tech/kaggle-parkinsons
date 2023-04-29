@@ -11,8 +11,9 @@
     },
     "vscode": {
       "extensions": [
-        "VSpaceCode.vspacecode"
-      ]
+		"VSpaceCode.vspacecode",
+		"vscodevim.vim"
+	]
     }
   }
 }
