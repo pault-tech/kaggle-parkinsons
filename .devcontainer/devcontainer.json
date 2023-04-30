@@ -18,8 +18,8 @@
 ]
       }
       "extensions": [
-		// "VSpaceCode.vspacecode",
-		"vscodevim.vim"
+		"VSpaceCode.vspacecode",
+		// "vscodevim.vim"
 	]
     }
   }
