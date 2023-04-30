@@ -21,4 +21,5 @@
 // send ctrl+g to terminal and spacemacs (not go to recent directory)
 // "terminal.integrated.commandsToSkipShell": [
 //   "-workbench.action.terminal.goToRecentDirectory"
+//   "-workbench.action.terminal.focusFind"
 // ]
