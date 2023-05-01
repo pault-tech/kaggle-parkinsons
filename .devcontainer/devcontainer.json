@@ -15,7 +15,8 @@
 "terminal.integrated.commandsToSkipShell": [
   "-workbench.action.terminal.goToRecentDirectory", //ctrl+g
   "-workbench.action.terminal.focusFind" //ctrl+f
-]
+],
+"workbench.panel.opensMaximized": "always"
       },
       "extensions": [
 		"VSpaceCode.vspacecode"
