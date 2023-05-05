@@ -22,3 +22,7 @@ sudo mkdir /kaggle
 sudo chown codespace /kaggle
 ln -s /workspaces/kaggle-parkinsons/input /kaggle/
 ls /kaggle/input/
+
+pip install --user nbconvert
+
+jupyter nbconvert --to python parkinson-s-disease-progression-prediction-w-tfdf.ipynb
