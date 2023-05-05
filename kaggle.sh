@@ -12,6 +12,7 @@ kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 # pip install --user tensorfljow (throws killed error, mb oom?)
 # pip install --user tensorflow --no-cache-dir
 pip install --user tensorflow_decision_forests --no-cache-dir
+# %pip install --quiet --exists-action i --disable-pip-version-check -r ../requirements.txt --user
 
 
 whoami
