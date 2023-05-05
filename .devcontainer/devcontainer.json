@@ -23,7 +23,7 @@
       },
       "extensions": [
 		// "vscodevim.vim"
-		"VSpaceCode.vspacecode"
+		//"VSpaceCode.vspacecode"
 //
 "ms-dotnettools.vscode-dotnet-runtime",
 "ms-toolsai.datawrangler",
