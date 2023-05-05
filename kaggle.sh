@@ -1,4 +1,3 @@
-
 #utility script for the kaggle competition
 # AMP-Parkinson's Disease Progression Prediction
 # https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
@@ -31,3 +30,13 @@ ls /kaggle/input/
 pip install --user nbconvert
 
 jupyter nbconvert --to python parkinson-s-disease-progression-prediction-w-tfdf.ipynb
+
+mkdir mykernel
+kaggle kernels init --path mykernel
+
+kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction-w-tfdf
+
+# kaggle kernels push --path parkinson-s-disease-progression-prediction-w-tfdf.ipynb
+kaggle kernels push --path ./
+
+kaggle kernels
