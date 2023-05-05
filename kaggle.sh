@@ -1,3 +1,8 @@
+
+#utility script for the kaggle competition
+# AMP-Parkinson's Disease Progression Prediction
+# https://www.kaggle.com/competitions/amp-parkinsons-disease-progression-prediction
+
 kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 
 mkdir -p input/amp-parkinsons-disease-progression-prediction
