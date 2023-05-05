@@ -19,5 +19,5 @@ whoami
 pwd
 sudo mkdir /kaggle
 sudo chown codespace /kaggle
-ln -s /workspace/kaggle-parkinsons/input /kaggle/
+ln -s /workspaces/kaggle-parkinsons/input /kaggle/
 ls /kaggle/input/
