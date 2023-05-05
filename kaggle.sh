@@ -1,11 +1,11 @@
-mkdir input
+mkdir -p input/amp-parkinsons-disease-progression-prediction
 
-cd input
+cd input/amp-parkinsons-disease-progression-prediction
 kaggle competitions download -c amp-parkinsons-disease-progression-prediction
 unzip amp-parkinsons-disease-progression-prediction
 # kaggle datasets list
 
-cd ..
+cd workspace/kaggle*
 
 kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 
