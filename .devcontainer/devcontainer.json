@@ -14,9 +14,9 @@
     },
     "vscode": {
       "settings": {
-        // send ctrl+g to terminal and spacemacs (not go to recent directory)
+        //spacemacs in terminal tweaks 
         "terminal.integrated.commandsToSkipShell": [
-          "-workbench.action.terminal.goToRecentDirectory", //ctrl+g
+          "-workbench.action.terminal.goToRecentDirectory", send ctrl+g to terminal and spacemacs (not go to recent directory)
           "-workbench.action.terminal.focusFind", //ctrl+f
           "-workbench.action.terminal.clear" //ctrl+k
         ],
@@ -32,6 +32,7 @@
         //
         "ms-python.python",
         "ms-python.vscode-pylance",
+        //
         "ms-toolsai.jupyter",
         "ms-toolsai.jupyter-keymap",
         "ms-toolsai.jupyter-renderers",
