@@ -1,3 +1,5 @@
+kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
+
 mkdir -p input/amp-parkinsons-disease-progression-prediction
 
 cd input/amp-parkinsons-disease-progression-prediction
@@ -7,7 +9,6 @@ unzip amp-parkinsons-disease-progression-prediction
 
 cd workspace/kaggle*
 
-kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
 
 # pip install --user tensorfljow (throws killed error, mb oom?)
 # pip install --user tensorflow --no-cache-dir
