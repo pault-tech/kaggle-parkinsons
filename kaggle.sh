@@ -9,7 +9,8 @@ mkdir -p input/amp-parkinsons-disease-progression-prediction
 cd input/amp-parkinsons-disease-progression-prediction
 kaggle competitions download -c amp-parkinsons-disease-progression-prediction
 unzip amp-parkinsons-disease-progression-prediction
-# kaggle datasets list
+
+kaggle datasets list
 
 cd workspace/kaggle*
 
@@ -40,3 +41,12 @@ kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction
 kaggle kernels push --path ./
 
 kaggle kernels
+
+
+function setpath {
+
+    if [ -d "$HOME/.local/bin" ] ; then
+        PATH="$HOME/.local/bin:$PATH"
+    fi
+
+}
