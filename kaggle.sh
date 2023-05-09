@@ -35,6 +35,7 @@ jupyter nbconvert --to python parkinson-s-disease-progression-prediction-w-tfdf.
 mkdir mykernel
 kaggle kernels init --path mykernel
 
+# metadata required for subsequent push
 kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction-w-tfdf
 
 # kaggle kernels push --path parkinson-s-disease-progression-prediction-w-tfdf.ipynb
