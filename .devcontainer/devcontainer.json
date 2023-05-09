@@ -24,6 +24,7 @@
         "terminal.integrated.allowChords": false
       },
       "extensions": [
+        // uncomment for vim
         // "vscodevim.vim"
         //"VSpaceCode.vspacecode"
         //
