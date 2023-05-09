@@ -17,7 +17,7 @@
       "settings": {
         //spacemacs in terminal tweaks 
         "terminal.integrated.commandsToSkipShell": [
-          "-workbench.action.terminal.goToRecentDirectory", send ctrl+g to terminal and spacemacs (not go to recent directory)
+          "-workbench.action.terminal.goToRecentDirectory", //send ctrl+g to terminal and spacemacs (not go to recent directory)
           "-workbench.action.terminal.focusFind", //ctrl+f
           "-workbench.action.terminal.clear", //ctrl+k
           "-workbench.action.terminal.qukickOpen" //ctrl+p
