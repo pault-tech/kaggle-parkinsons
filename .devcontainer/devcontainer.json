@@ -2,6 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   //  "image": "mcr.microsoft.com/devcontainers/python:0-3.10", //NOTE: does not include sshd
   "features": {
+    // uncomment for sshd in python
     //"ghcr.io/devcontainers/features/sshd:1": {"version": "latest"}       
   },
   "customizations": {
