@@ -39,9 +39,14 @@ kaggle kernels init --path mykernel
 kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction-w-tfdf
 
 # kaggle kernels push --path parkinson-s-disease-progression-prediction-w-tfdf.ipynb
+
 kaggle kernels push --path ./
 
+kaggle kernels output pt1001/parkinson-s-disease-progression-prediction-w-tfdf
+
 kaggle kernels
+
+kaggle kernels output
 
 # pip install --user kaggle
 # pip install --user jupytext #sync ipynb .py files
