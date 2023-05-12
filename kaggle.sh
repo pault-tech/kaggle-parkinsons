@@ -43,7 +43,10 @@ kaggle kernels push --path ./
 
 kaggle kernels
 
+# pip install --user kaggle
+type kaggle
 
+#add kaggle to path if needed
 function setpath {
 
     if [ -d "$HOME/.local/bin" ] ; then
