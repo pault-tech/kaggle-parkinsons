@@ -1,1 +1,2 @@
-python test.py
+# python test.py
+kaggle kernels push --path ./
