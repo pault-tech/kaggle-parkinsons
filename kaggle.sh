@@ -44,6 +44,8 @@ kaggle kernels push --path ./
 kaggle kernels
 
 # pip install --user kaggle
+# pip install --user jupytext #sync ipynb .py files
+
 type kaggle
 
 #add kaggle to path if needed
