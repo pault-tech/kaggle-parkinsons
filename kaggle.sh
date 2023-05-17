@@ -38,6 +38,11 @@ kaggle kernels init --path mykernel
 # metadata required for subsequent push
 kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction-w-tfdf
 
+# mkdir kernels
+cd kernels
+# kaggle kernels pull cdeotte/prot-bert-finetune-lb-0-30
+kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
+
 # kaggle kernels push --path parkinson-s-disease-progression-prediction-w-tfdf.ipynb
 
 kaggle kernels push --path ./
