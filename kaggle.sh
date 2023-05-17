@@ -40,8 +40,10 @@ kaggle kernels pull --metadata pt1001/parkinson-s-disease-progression-prediction
 
 # mkdir kernels
 cd kernels
-# kaggle kernels pull cdeotte/prot-bert-finetune-lb-0-30
+kaggle kernels pull cdeotte/prot-bert-finetune-lb-0-30
 kaggle kernels pull gusthema/parkinson-s-disease-progression-prediction-w-tfdf
+#
+jupyter nbconvert --to html parkinson-s-disease-progression-prediction-w-tfdf.ipynb
 
 # kaggle kernels push --path parkinson-s-disease-progression-prediction-w-tfdf.ipynb
 
